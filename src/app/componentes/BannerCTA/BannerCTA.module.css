@@ -1,0 +1,38 @@
+.container {
+    background: linear-gradient(90deg, #E63946, #1E90FF);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subtitulo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.paragrafo{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.botao{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: white;
+    color: #E63946;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+}

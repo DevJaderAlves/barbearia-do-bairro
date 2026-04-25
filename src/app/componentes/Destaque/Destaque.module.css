@@ -1,0 +1,32 @@
+
+.destaque{
+    background-image: url('/destaque.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+}
+
+.titulo{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+

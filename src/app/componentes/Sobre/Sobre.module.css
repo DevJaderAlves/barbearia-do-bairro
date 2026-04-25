@@ -1,0 +1,105 @@
+
+.container_principal {
+    background: #000000;
+    width: 100%;
+    border-top: 4px solid #E63946; 
+    padding: 40px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.image_container {
+    flex: 1 1 300px; 
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.texto_container {
+    flex: 1 1 400px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.titulo {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #FFFFFF; 
+    max-width: 400px;
+}
+
+.titulo span:nth-child(1) { color: #E63946; } 
+.titulo span:nth-child(2) { color: #1E90FF; } 
+.titulo span:nth-child(3) { color: #FFFFFF; } 
+
+.descricao {
+    color: #DDDDDD; 
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.estatistica {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.container_satisfacao {
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.satisfacao {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF; 
+}
+
+.experiencia {
+    font-size: 16px;
+    color: #BBBBBB; 
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .titulo {
+        font-size: 24px;
+    }
+    
+    .descricao {
+        font-size: 14px;
+    }
+    
+    .satisfacao {
+        font-size: 24px;
+    }
+}
+
+    
+  
+       

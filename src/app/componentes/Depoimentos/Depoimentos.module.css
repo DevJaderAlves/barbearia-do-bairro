@@ -1,0 +1,54 @@
+/* Seção de Destaque com Parallax */
+.container{
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.titulo{
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.paragrafo{
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.nomes{
+  font-size: 18px;
+  color: #E63946;
+  margin-bottom: 8px;
+}
+
+.estrelas {
+  font-size: 18px;
+  color: gold;
+  margin-top: 8px;
+}
+

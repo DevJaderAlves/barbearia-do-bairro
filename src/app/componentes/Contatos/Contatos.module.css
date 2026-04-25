@@ -1,0 +1,123 @@
+.container_principal{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.imagemFundo {
+    background-image: url('/banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.conteudo{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    max-width: 500px;
+
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+.paragrafo{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contato a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.icone {
+    color: #25D366;
+}
+
+.paragrafo {
+    color: #ffffff;
+}
+
+.contato:hover {
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.507);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-bottom: 60px;
+  }
+  
+  .endereco{
+    max-width: 1024px;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subtitulo{
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .enderecoInfo{
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .mensagem{
+    font-size: 18px;
+    color: #777;
+    font-style: italic;
+  }
+
+.mapaContainer {
+    margin-top: -50px;
+    width: 100%;
+}
+
+
+
+
+
