@@ -6,10 +6,10 @@ export default function Equipe() {
       <h2 className={estilo.titulo}>EQUIPE</h2>
       <p className={estilo.descricao}>Nossa equipe é formada por especialistas que garantem qualidade e inovação em cada corte.</p>
       <div className={estilo.galeria}>
-        <img src="/Ricardinho.jpg" alt="Imagem do espaço 1" />
-        <img src="/Paulo Souza.jpg" alt="Imagem do espaço 2" />
-        <img src="/Macedo.jpg" alt="Imagem do espaço 3" />
-        <img src="/Henrique.jpg" alt="Imagem do espaço 4" />
+        <image src="/Ricardinho.jpg" alt="Imagem do espaço 1" />
+        <image src="/Paulo Souza.jpg" alt="Imagem do espaço 2" />
+        <image src="/Macedo.jpg" alt="Imagem do espaço 3" />
+        <image src="/Henrique.jpg" alt="Imagem do espaço 4" />
       </div>
 
       <div className={estilo.infoContainer}>
@@ -25,18 +25,18 @@ export default function Equipe() {
 
       <h2 className={estilo.container_imagens}>A ARTE DA TESOURA EM AÇÃO</h2>
       <div className={estilo.galeria}>
-        <img src="/cliente1.jpg" alt="Imagem do espaço 1" />
-        <img src="/cliente2.jpg" alt="Imagem do espaço 2" />
-        <img src="/cliente3.jpg" alt="Imagem do espaço 3" />
-        <img src="/cliente4.jpg" alt="Imagem do espaço 4" />
-        <img src="/cliente5.jpg" alt="Imagem do espaço 5" />
-        <img src="/cliente6.jpg" alt="Imagem do espaço 6" />
-        <img src="/cliente7.jpg" alt="Imagem do espaço 7" />
-        <img src="/cliente8.jpg" alt="Imagem do espaço 8" />
-        <img src="/cliente9.jpg" alt="Imagem do espaço 9" />
-        <img src="/cliente10.jpg" alt="Imagem do espaço 10" />
-        <img src="/cliente11.jpg" alt="Imagem do espaço 11" />
-        <img src="/cliente12.jpg" alt="Imagem do espaço 12" />
+        <image src="/cliente1.jpg" alt="Imagem do espaço 1" />
+        <image src="/cliente2.jpg" alt="Imagem do espaço 2" />
+        <image src="/cliente3.jpg" alt="Imagem do espaço 3" />
+        <image src="/cliente4.jpg" alt="Imagem do espaço 4" />
+        <image src="/cliente5.jpg" alt="Imagem do espaço 5" />
+        <image src="/cliente6.jpg" alt="Imagem do espaço 6" />
+        <image src="/cliente7.jpg" alt="Imagem do espaço 7" />
+        <image src="/cliente8.jpg" alt="Imagem do espaço 8" />
+        <image src="/cliente9.jpg" alt="Imagem do espaço 9" />
+        <image src="/cliente10.jpg" alt="Imagem do espaço 10" />
+        <image src="/cliente11.jpg" alt="Imagem do espaço 11" />
+        <image src="/cliente12.jpg" alt="Imagem do espaço 12" />
       </div>
 
       <div className={estilo.extraInfoContainer}>
